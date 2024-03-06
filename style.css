@@ -812,4 +812,9 @@ nav .fa-solid {
   form {
     margin-top: 20%;
   }
+
+  .projects p {
+    font-size: 13px;
+    width: 330px;
+  }
 }
