@@ -304,7 +304,7 @@ span {
   position: absolute;
   left: 0;
   bottom: -8px;
-  transition: 0.5s;
+  transition: 0.5s ease;
 }
 
 .links.active::after {
@@ -344,6 +344,18 @@ span {
 
 .contents.active-content {
   display: block;
+}
+
+.contents i {
+  font-size: 86px;
+  margin-right: 8%;
+  padding-top: 3%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contents i:hover {
+  color: var(--subtitle--color);
 }
 
 /* ---------Portfolio Section-------------- */
