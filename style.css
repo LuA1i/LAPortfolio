@@ -34,7 +34,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .logo {
-  width: 150px;
+  width: 110px;
   padding-top: 1%;
 }
 
@@ -827,6 +827,6 @@ nav .fa-solid {
 
   .projects p {
     font-size: 13px;
-    width: 330px;
+    width: 310px;
   }
 }
