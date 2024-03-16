@@ -12,18 +12,14 @@ navLinks.forEach((navLink, index) => {
     navLink.classList.add('active')
 
     // Show the corresponding content based on the clicked link
-    if (index === 0) {
-      contents[0].classList.add('active-content') // Show the first content for "Skills"
-    } else {
-      contents[1].classList.add('active-content') // Show the second content for "Education"
-    }
+    contents[index].classList.add('active-content')
   })
 })
 
 function openmenu() {
   sidemenu.style.right = '0'
-  
 }
+
 function closemenu() {
   sidemenu.style.right = '-200px'
 }

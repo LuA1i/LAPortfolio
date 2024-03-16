@@ -358,6 +358,21 @@ span {
   color: var(--subtitle--color);
 }
 
+.currently_learning {
+  display: flex;
+  flex-direction: column;
+}
+.currently_learning i {
+  font-size: 35px;
+}
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
 /* ---------Portfolio Section-------------- */
 
 #portfolio {
