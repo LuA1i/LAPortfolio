@@ -776,7 +776,7 @@ nav .fa-solid {
   .typewrite_effect {
     display: inline;
     border-right: none;
-    letter-spacing: normal; /
+    letter-spacing: normal; 
     width: auto;
     overflow: visible; 
     animation: none; 
