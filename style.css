@@ -774,12 +774,12 @@ nav .fa-solid {
   }
 
   .typewrite_effect {
-    display: inline; /* or any other style you prefer for smaller screens */
-    border-right: none; /* remove the border for smaller screens */
-    letter-spacing: normal; /* reset letter-spacing for smaller screens */
-    width: auto; /* or any other value suitable for smaller screens */
-    overflow: visible; /* or any other value suitable for smaller screens */
-    animation: none; /* disable the animation for smaller screens */
+    display: inline;
+    border-right: none;
+    letter-spacing: normal; /
+    width: auto;
+    overflow: visible; 
+    animation: none; 
   }
   nav .fa-solid {
     display: block;
